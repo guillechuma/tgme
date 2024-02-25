@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tgme"
+version = "0.1.0"
+description = "Python package that provides an easy way to send messages via a Telegram bot."
+authors = ["Guillermo Chumaceiro <guillechuma24@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tgme = 'tgme.cli:app'
