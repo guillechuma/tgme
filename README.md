@@ -8,6 +8,14 @@ tgme is a Python package that provides an easy way to send messages via a Telegr
 - Command-line interface for quick and easy message sending.
 - Easy integration into Python scripts for automated messaging.
 
+## Prerequisites
+
+You need to create a Telegram bot using its free API. Its really easy to create and setup (it took me 10 mins).
+
+I recommend following [this guide](https://blog.hackertyper.net/post/creating-a-personal-notification-system-for-free/).
+
+You can also follow this [tutorial](https://core.telegram.org/bots/tutorial) from Telegram official website. Not as straightforward, but with more information.
+
 ## Installation
 
 To install tgme, follow these steps:
