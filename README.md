@@ -18,7 +18,7 @@ To install tgme, follow these steps:
 
 ```
 cd tgme
-potry build
+poetry build
 ```
 
 3. Install package with pip
